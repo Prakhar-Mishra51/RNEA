@@ -1,0 +1,67 @@
+{
+
+    "robot":{
+        "name": "UR2",
+        "dofs": 2,
+        "links":[
+            {
+                "link_id": 0,
+                "dh":{
+                    "theta": 1.57,            
+                    "d": 0,
+                    "a": 1,
+                    "alpha": 0
+                },
+                "dynamic_params":{
+
+                    "mass": 22,            
+                    "com":[-0.5, 0, 0],
+                    "inertia":{
+
+                            "Ixx":0,
+                            "Iyy":0,
+                            "Izz":0.4,
+                            "Ixy":0.0,
+                            "Ixz":0.0,
+                            "Iyz":0.0
+                    }
+                        
+                }
+                
+            },
+
+
+
+            {
+                "link_id": 1,
+                "dh":{
+                    "theta": 0.7853,            
+                    "d": 0.0,
+                    "a": 0.8,
+                    "alpha": 0.0
+                },
+                "dynamic_params":{
+
+                    "mass": 19,            
+                    "com":[0.4,0,0],
+                    "inertia":{
+
+                            "Ixx":0,
+                            "Iyy":0,
+                            "Izz":0.3,
+                            "Ixy":0.0,
+                            "Ixz":0.0,
+                            "Iyz":0.0
+                    }
+                        
+                }
+                
+            }
+        ]
+    }    
+
+
+
+
+
+}
