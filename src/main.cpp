@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 
     
-    std::string param_file = "../Robot_model/robot_parameter.json"; // change json file for different test case.
+    std::string param_file = "./Robot_model/robot_parameters.json"; // change json file for different test case.(relative path to main folder)
     
     Robot robot;
     robot.buildRobotFromFile(param_file);
