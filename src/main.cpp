@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 
     
-    std::string param_file = "../Robot_model/Test_Robot.json";
+    std::string param_file = "../Robot_model/robot_parameter.json"; // change json file for different test case.
     
     Robot robot;
     robot.buildRobotFromFile(param_file);
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
     q_test.setZero();
 
-    q_test<<1.57,0;
+    q_test<<1.57,0,0,0,0,0; // add as per no. of link
 
     Eigen::VectorXd g;
     
