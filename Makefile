@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -I ~/coding/RNEA/include/
 LDFLAGS = -ljsoncpp
 
-SRC = src/main2.cpp src/id.cpp src/link.cpp src/robot.cpp
+SRC = src/main.cpp src/id.cpp src/link.cpp src/robot.cpp
 
 OBJ = $(SRC:.cpp=.o)
 EXECUTABLE = test1
