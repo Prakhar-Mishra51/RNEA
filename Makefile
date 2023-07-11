@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -I ~/coding/RNEA/include/
+CXXFLAGS = -I ./include/
 LDFLAGS = -ljsoncpp
 
 SRC = src/main.cpp src/id.cpp src/link.cpp src/robot.cpp
